@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>泌尿科PRP療法 用途與機轉介紹</title>
+<!-- Font Awesome CDN for icons -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+/>
+<!-- Google Fonts: Noto Sans TC -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+<style>
+  /* 基本排版 */
+  body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 2rem 1rem;
+    color: #374151;
+    line-height: 1.6;
+  }
+  h2 {
+    border-bottom: 4px solid #3b82f6; /* 藍色底線 */
+    padding-bottom: 0.3em;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #374151;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #1e40af;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  /* 卡片與網格 */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  @media(min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media(min-width: 1024px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2.5rem;
+    }
+  }
+  .card {
+    background: linear-gradient(135deg, #dbebff, #e6f0ff);
+    border-radius: 1.5rem;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  .card:hover {
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.5);
+    transform: translateY(-4px);
+  }
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 0;
+    padding-left: 0;
+    color: #374151;
+  }
+  ul li {
+    margin-bottom: 0.75rem;
+  }
+  strong {
+    font-weight: 700;
+  }
+  /* icon樣式與動畫 */
+  .icon {
+    color: #2563eb;
+    transition: color 0.3s ease, transform 0.4s ease;
+    flex-shrink: 0;
+  }
+  .icon:hover {
+    color: #1e40af;
+    transform: rotate(20deg);
+  }
+  /* 各區段色彩區分 */
+  .section-emerald h2 span {
+    border-color: #10b981;
+  }
+  .section-purple h2 span {
+    border-color: #8b5cf6;
+  }
+  /* 用於系統優勢、臨床證據等段落的列表 */
+  .list-lg li {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  /* 區塊間分隔 */
+  hr {
+    border: none;
+    border-top: 2px solid #e5e7eb;
+    margin: 3rem 0;
+  }
+  /* 回頂按鈕 */
+  #backToTop {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.7);
+    transition: background-color 0.3s ease;
+    font-size: 1.25rem;
+    z-index: 1000;
+    display: none;
+  }
+  #backToTop:hover {
+    background-color: #2563eb;
+  }
+  p.lead {
+    font-size: 1.125rem;
+    max-width: 720px;
+  }
+</style>
+</head>
+<body>
+
+<main>
+  <!-- 泌尿科可能用途 -->
+  <section class="mb-10">
+    <h2><span>泌尿科可能用途</span></h2>
+    <div class="grid">
+      <!-- 攝護腺疾病 -->
+      <div class="card">
+        <h3><i class="fas fa-shield-alt icon"></i>攝護腺疾病</h3>
+        <ul>
+          <li>
+            <strong>慢性攝護腺炎/慢性骨盆腔疼痛症候群（CP/CPPS）：</strong><br />
+            PRP 注射可提供高濃度生長因子與抗發炎細胞激素，能有效改善局部微循環，加速受損組織修復並減緩慢性疼痛。研究顯示，PRP 可降低發炎標記並改善症狀分數。
+          </li>
+          <li>
+            <strong>攝護腺手術後恢復：</strong><br />
+            例如經尿道攝護腺切除術（TURP）或雷射手術（HoLEP）後，局部注射 PRP 有助於加速黏膜層的再生，促進止血與組織修復，降低術後出血風險。臨床試驗證實可縮短恢復時間。
+          </li>
+        </ul>
+      </div>
+      <!-- 勃起功能障礙（ED） -->
+      <div class="card">
+        <h3><i class="fas fa-heartbeat icon"></i>勃起功能障礙（ED）</h3>
+        <p>
+          <strong>血管性/年齡相關性 ED：</strong><br />
+          PRP 含有血管內皮生長因子（VEGF）等關鍵生長因子，可刺激陰莖海綿體平滑肌細胞與血管新生，改善血流量，尤其與低能量震波治療（Li-ESWT）搭配有協同作用，效果更佳。P-Shot（Priapus Shot）是常見應用，已有隨機對照試驗顯示改善IIEF分數。
+        </p>
+      </div>
+      <!-- 尿道狹窄與膀胱功能異常 -->
+      <div class="card">
+        <h3><i class="fas fa-tint icon"></i>尿道狹窄與膀胱功能異常</h3>
+        <ul>
+          <li>
+            <strong>尿道手術或狹窄修復後：</strong><br />
+            PRP 注射可促進正常尿道上皮細胞生長，同時抑制過度的纖維化與疤痕組織形成，有助於減少術後再狹窄的發生率。研究顯示可降低再狹窄率達20-30%。
+          </li>
+          <li>
+            <strong>間質性膀胱炎/膀胱疼痛症候群：</strong><br />
+            PRP 膀胱灌注或黏膜下注射可幫助修復受損的膀胱黏膜層（GAG layer），並緩解發炎反應，從而改善疼痛與頻尿症狀。臨床應用包括慢性膀胱炎與尿道炎治療。
+          </li>
+        </ul>
+      </div>
+      <!-- 腎臟相關 -->
+      <div class="card">
+        <h3><i class="fas fa-kidneys icon"></i>腎臟相關</h3>
+        <p>
+          <strong>腎臟缺血再灌流損傷、慢性腎病變：</strong><br />
+          雖然仍多在實驗階段，但巨噬細胞調控與生長因子注射，對減少腎臟纖維化、促進腎臟再生與修復有潛在應用。動物模型顯示PRP可改善腎功能指標。
+        </p>
+      </div>
+      <!-- 陰莖彎曲症（Peyronie's Disease） -->
+      <div class="card" style="grid-column: span 2;">
+        <h3><i class="fas fa-exclamation-triangle icon"></i>陰莖彎曲症（Peyronie's Disease）</h3>
+        <p>
+          PRP 注射可減少陰莖斑塊大小、改善彎曲度，並提升性功能。研究顯示PRP有助於抑制纖維化過程，作為非手術治療選項。
+        </p>
+      </div>
+      <!-- 壓力性尿失禁（SUI） -->
+      <div class="card" style="grid-column: span 2;">
+        <h3><i class="fas fa-droplet icon"></i>壓力性尿失禁（SUI）</h3>
+        <p>
+          自體PRP注射可強化尿道括約肌功能，試驗顯示在治療後1個月與6個月可有效緩解症狀，無明顯副作用。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- PRP的治療機轉 -->
+  <section class="section-emerald mb-10">
+    <h2><span>PRP的治療機轉</span></h2>
+    <div class="card" style="background: linear-gradient(135deg, #dcfce7, #d1fae5); box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);">
+      <p>
+        PRP 的核心治療機轉來自於其所含的高濃度血小板。當 PRP 被注射到組織中時，活化的血小板會釋放出大量的生長因子、細胞激素與趨化因子，這些生物活性分子共同協調以下修復過程：
+      </p>
+      <ul>
+        <li><strong>血管新生 (Angiogenesis)：</strong> 如 VEGF、FGF 等生長因子可刺激新血管生成，改善局部血液循環與組織供氧。在ED治療中，這有助於提升血流。</li>
+        <li><strong>細胞增殖與組織修復：</strong> 如 PDGF、EGF 等生長因子能促進受損部位的細胞（如平滑肌細胞、內皮細胞）增殖與分化，加速組織再生。適用於手術後恢復。</li>
+        <li><strong>發炎調節與抗纖維化：</strong> 部分生長因子與細胞激素能調節發炎反應，並抑制過度的膠原蛋白沉積，減少疤痕組織（如尿道狹窄）的形成。在Peyronie's disease中特別有效。</li>
+        <li><strong>神經再生：</strong> PRP可促進神經修復，在ED或手術後神經損傷中發揮作用。</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- Phoenix 系統優勢 -->
+  <section class="mb-10">
+    <h2><span>Phoenix 系統優勢</span></h2>
+    <ul class="list-disc list-inside list-lg text-gray-700">
+      <li><strong><i class="fas fa-rocket icon"></i>高濃度：</strong> 可得到全血 2.5–6 倍濃縮血小板與單核球，對於需要局部組織修復的泌尿疾病具優勢，提升治療效能。</li>
+      <li><strong><i class="fas fa-robot icon"></i>全自動化：</strong> 避免人工操作誤差，品質更一致，確保每次PRP製備的可靠性。</li>
+      <li><strong><i class="fas fa-lock icon"></i>高安全性：</strong> 封閉式系統，降低感染風險，對泌尿科介入治療很重要，符合醫療標準。</li>
+      <li><strong><i class="fas fa-clock icon"></i>快速製備：</strong> 整個過程僅需15-20分鐘，適合門診使用，提高臨床效率。</li>
+    </ul>
+  </section>
+
+  <hr />
+
+  <!-- 臨床應用現況 -->
+  <section class="mb-10">
+    <h2><span>臨床應用現況</span></h2>
+    <p class="lead">
+      目前台灣泌尿科臨床較常見的應用是 ED、慢性攝護腺炎與膀胱疾病（特別是間質性膀胱炎）。一些醫學中心及私人診所已有將 PRP/活性分子治療整合進門診治療方案。國際上，PRP用於ED的隨機試驗顯示改善率達50-70%，而Peyronie's disease的應用正快速增長。安全性高，鮮有嚴重副作用報告。
+    </p>
+  </section>
+
+  <hr />
+
+  <!-- 臨床證據與研究 -->
+  <section class="section-purple mb-10">
+    <h2><span>臨床證據與研究</span></h2>
+    <div class="card" style="background: linear-gradient(135deg, #ede9fe, #ddd6fe); box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);">
+      <p>多項研究證實PRP在泌尿科的安全性與潛在療效：</p>
+      <ul>
+        <li>ED治療：雙盲試驗顯示PRP注射改善勃起功能，特別在輕中度患者。</li>
+        <li>Peyronie's disease：減少彎曲度並改善性滿意度。</li>
+        <li>SUI：注射後症狀緩解持續6個月以上。</li>
+        <li>整體安全性：無重大不良事件，適合作為再生醫學選項。</li>
+      </ul>
+      <p>然而，需更多大型試驗確認長期效果。</p>
+    </div>
+  </section>
+</main>
+
+<!-- 回頂按鈕 -->
+<button id="backToTop" aria-label="返回頂部">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script>
+  // 回頂按鈕顯示控制
+  const backToTopBtn = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+    if(window.scrollY > 300) {
+      backToTopBtn.style.display = 'block';
+    } else {
+      backToTopBtn.style.display = 'none';
+    }
+  });
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
+</body>
+</html>
