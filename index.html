@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>泌尿科PRP療法 用途與機轉介紹</title>
+<title>PRP在泌尿科的應用</title>
 <!-- Font Awesome CDN for icons -->
 <link
   rel="stylesheet"
@@ -23,6 +23,13 @@
     padding: 2rem 1rem;
     color: #374151;
     line-height: 1.6;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e40af;
+    text-align: center;
+    margin-bottom: 2rem;
   }
   h2 {
     border-bottom: 4px solid #3b82f6; /* 藍色底線 */
@@ -98,11 +105,278 @@
   .section-purple h2 span {
     border-color: #8b5cf6;
   }
+  /* 新增的區塊樣式 */
+  .section-orange h2 span {
+    border-color: #f59e0b; /* 橙色底線 */
+  }
+  .card-orange {
+    background: linear-gradient(135deg, #fffbeb, #ffedd5);
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+  }
   /* 用於系統優勢、臨床證據等段落的列表 */
   .list-lg li {
     font-size: 1.125rem;
     margin-bottom: 1rem;
   }
+  /* 區塊間分隔 */
+  hr {
+    border: none;
+    border-top: 2px solid #e5e7eb;
+    margin: 3rem 0;
+  }
+  /* 免責聲明區塊 */
+  .disclaimer {
+    background: #fef2f2;
+    border-left: 5px solid #ef4444;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    color: #b91c1c;
+  }
+  /* 回頂按鈕 */
+  #backToTop {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.7);
+    transition: background-color 0.3s ease;
+    font-size: 1.25rem;
+    z-index: 1000;
+    display: none;
+  }
+  #backToTop:hover {
+    background-color: #2563eb;
+  }
+  p.lead {
+    font-size: 1.125rem;
+    max-width: 720px;
+  }
+</style>
+</head>
+<body>
+<div style="max-width: 1024px; margin: auto;">
+  <h1>PRP在泌尿科的應用</h1>
+  <main>
+    <!-- 泌尿科可能用途 -->
+    <section class="mb-10">
+      <div class="grid">
+        <!-- 攝護腺疾病 -->
+        <div class="card">
+          <h3><i class="fas fa-shield-alt icon"></i>攝護腺疾病</h3>
+          <ul>
+            <li>
+              <strong>慢性攝護腺炎/慢性骨盆腔疼痛症候群（CP/CPPS）：</strong><br />
+              PRP 注射可提供高濃度生長因子與抗發炎細胞激素，能有效改善局部微循環，加速受損組織修復並減緩慢性疼痛。研究顯示，PRP 可降低發炎標記並改善症狀分數。
+            </li>
+            <li>
+              <strong>攝護腺手術後恢復：</strong><br />
+              例如經尿道攝護腺切除術（TURP）或雷射手術（HoLEP）後，局部注射 PRP 有助於加速黏膜層的再生，促進止血與組織修復，降低術後出血風險。臨床試驗證實可縮短恢復時間。
+            </li>
+          </ul>
+        </div>
+        <!-- 勃起功能障礙（ED） -->
+        <div class="card">
+          <h3><i class="fas fa-heartbeat icon"></i>勃起功能障礙（ED）</h3>
+          <p>
+            <strong>血管性/年齡相關性 ED：</strong><br />
+            PRP 含有血管內皮生長因子（VEGF）等關鍵生長因子，可刺激陰莖海綿體平滑肌細胞與血管新生，改善血流量，尤其與低能量震波治療（Li-ESWT）搭配有協同作用，效果更佳。P-Shot（Priapus Shot）是常見應用，已有隨機對照試驗顯示改善IIEF分數。
+          </p>
+        </div>
+        <!-- 尿道狹窄與膀胱功能異常 -->
+        <div class="card">
+          <h3><i class="fas fa-tint icon"></i>尿道狹窄與膀胱功能異常</h3>
+          <ul>
+            <li>
+              <strong>尿道手術或狹窄修復後：</strong><br />
+              PRP 注射可促進正常尿道上皮細胞生長，同時抑制過度的纖維化與疤痕組織形成，有助於減少術後再狹窄的發生率。研究顯示可降低再狹窄率達20-30%。
+            </li>
+            <li>
+              <strong>間質性膀胱炎/膀胱疼痛症候群：</strong><br />
+              PRP 膀胱灌注或黏膜下注射可幫助修復受損的膀胱黏膜層（GAG layer），並緩解發炎反應，從而改善疼痛與頻尿症狀。臨床應用包括慢性膀胱炎與尿道炎治療。
+            </li>
+          </ul>
+        </div>
+        <!-- 腎臟相關 -->
+        <div class="card">
+          <h3><i class="fas fa-kidneys icon"></i>腎臟相關</h3>
+          <p>
+            <strong>腎臟缺血再灌流損傷、慢性腎病變：</strong><br />
+            雖然仍多在實驗階段，但巨噬細胞調控與生長因子注射，對減少腎臟纖維化、促進腎臟再生與修復有潛在應用。動物模型顯示PRP可改善腎功能指標。
+          </p>
+        </div>
+        <!-- 陰莖彎曲症（Peyronie's Disease） -->
+        <div class="card">
+          <h3><i class="fas fa-exclamation-triangle icon"></i>陰莖彎曲症（Peyronie's Disease）</h3>
+          <p>
+            PRP 注射可減少陰莖斑塊大小、改善彎曲度，並提升性功能。研究顯示PRP有助於抑制纖維化過程，作為非手術治療選項。
+          </p>
+        </div>
+        <!-- 壓力性尿失禁（SUI） -->
+        <div class="card">
+          <h3><i class="fas fa-droplet icon"></i>壓力性尿失禁（SUI）</h3>
+          <p>
+            自體PRP注射可強化尿道括約肌功能，試驗顯示在治療後1個月與6個月可有效緩解症狀，無明顯副作用。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- PRP的治療機轉 -->
+    <section class="section-emerald mb-10">
+      <h2><span>PRP的治療機轉</span></h2>
+      <div class="card" style="background: linear-gradient(135deg, #dcfce7, #d1fae5); box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);">
+        <p>
+          PRP 的核心治療機轉來自於其所含的高濃度血小板。當 PRP 被注射到組織中時，活化的血小板會釋放出大量的生長因子、細胞激素與趨化因子，這些生物活性分子共同協調以下修復過程：
+        </p>
+        <ul>
+          <li>
+              <strong>血管新生 (Angiogenesis)：</strong>
+              如血管內皮生長因子（VEGF）、成纖維細胞生長因子（FGF）等可刺激新血管生成，改善局部血液循環與組織供氧。在ED治療中，這有助於提升海綿體血流。
+          </li>
+          <li>
+              <strong>細胞增殖與組織修復：</strong>
+              如血小板衍生生長因子（PDGF）、轉化生長因子-β（TGF-β）與表皮生長因子（EGF）等能促進受損部位的細胞（如平滑肌細胞、內皮細胞）增殖與分化，加速組織再生。適用於攝護腺與膀胱手術後恢復。
+          </li>
+          <li>
+              <strong>發炎調節與抗纖維化：</strong>
+              PRP 中的細胞激素能調節發炎反應，並抑制過度的膠原蛋白沉積，減少疤痕組織（如尿道狹窄、Peyronie's plaque）的形成。
+          </li>
+          <li>
+              <strong>神經再生與保護：</strong>
+              PRP可釋放神經生長因子，促進周邊神經修復，在ED或手術後神經損傷中發揮作用。
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Phoenix 系統優勢 -->
+    <section class="mb-10">
+      <h2><span>Phoenix 系統優勢</span></h2>
+      <ul class="list-disc list-inside list-lg text-gray-700">
+        <li><strong><i class="fas fa-rocket icon"></i>高濃度：</strong> 可得到全血 2.5–6 倍濃縮血小板與單核球，對於需要局部組織修復的泌尿疾病具優勢，能顯著提升治療效能。</li>
+        <li><strong><i class="fas fa-robot icon"></i>全自動化：</strong> 避免人工操作誤差，品質更一致，確保每次PRP製備的可靠性。</li>
+        <li><strong><i class="fas fa-lock icon"></i>高安全性：</strong> 封閉式系統，降低感染風險，對泌尿科介入治療很重要，符合最高醫療標準。</li>
+        <li><strong><i class="fas fa-clock icon"></i>快速製備：</strong> 整個過程僅需15-20分鐘，適合門診使用，大幅提高臨床效率。</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <!-- 臨床應用現況 -->
+    <section class="mb-10">
+      <h2><span>臨床應用現況</span></h2>
+      <p class="lead">
+        目前台灣泌尿科臨床較常見的應用是 ED、慢性攝護腺炎與膀胱疾病（特別是間質性膀胱炎）。一些醫學中心及私人診所已有將 PRP/活性分子治療整合進門診治療方案。國際上，PRP用於ED的隨機試驗顯示改善率達50-70%，而Peyronie's disease的應用正快速增長。整體來說，PRP療法安全性高，鮮有嚴重副作用報告。
+      </p>
+    </section>
+
+    <hr />
+    
+    <!-- 新增的常見問題與解答區塊 -->
+    <section class="section-orange mb-10">
+        <h2><span>常見問題與解答</span></h2>
+        <div class="grid">
+            <div class="card card-orange">
+                <h3><i class="fas fa-question-circle icon"></i>PRP製備與注射流程是怎樣的？</h3>
+                <p>
+                    整個流程相當簡單快速，在門診即可完成。首先會從患者身上抽取少量血液（通常約10-20毫升），接著利用離心機將血液中的血小板與血漿分離，並濃縮成高濃度PRP。最後，由醫師將PRP注射到需要的治療部位。
+                </p>
+            </div>
+            <div class="card card-orange">
+                <h3><i class="fas fa-syringe icon"></i>治療過程會很痛嗎？</h3>
+                <p>
+                    PRP注射治療通常是微創且疼痛感輕微。醫師會使用局部麻醉或在注射前進行冰敷，以降低不適感。多數患者表示治療過程的疼痛感是可以忍受的，治療後可能會有輕微腫脹或瘀青，通常幾天內會自然消退。
+                </p>
+            </div>
+            <div class="card card-orange">
+                <h3><i class="fas fa-calendar-alt icon"></i>需要幾次療程才能看到效果？</h3>
+                <p>
+                    療程次數因個人病情與治療部位而異。一般而言，建議進行一個療程，通常是每2-4週注射一次，共3-4次。之後可根據效果由醫師評估是否需要追加療程。
+                </p>
+            </div>
+            <div class="card card-orange">
+                <h3><i class="fas fa-user-shield icon"></i>PRP治療有哪些副作用？</h3>
+                <p>
+                    由於PRP是取自患者本身的血液，因此具有高度安全性，幾乎沒有免疫排斥或傳染疾病的風險。常見的副作用僅為注射部位的輕微腫脹、瘀青或痠痛，通常在數天內會自行緩解。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+
+    <!-- 臨床證據與研究 -->
+    <section class="section-purple mb-10">
+      <h2><span>臨床證據與研究</span></h2>
+      <div class="card" style="background: linear-gradient(135deg, #ede9fe, #ddd6fe); box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);">
+        <p>多項研究證實PRP在泌尿科的安全性與潛在療效：</p>
+        <ul>
+          <li>
+              <strong>ED治療：</strong>
+              雙盲試驗顯示PRP注射可顯著改善勃起功能，特別在輕中度患者。
+          </li>
+          <li>
+              <strong>Peyronie's disease：</strong>
+              臨床試驗證實可減少陰莖斑塊大小並改善彎曲度，提升性滿意度。
+          </li>
+          <li>
+              <strong>SUI：</strong>
+              注射後症狀緩解可持續6個月以上，為非手術治療提供新選擇。
+          </li>
+          <li>
+              <strong>整體安全性：</strong>
+              由於來自自體血液，PRP療法幾乎沒有免疫排斥或傳播疾病的風險，無重大不良事件。
+          </li>
+        </ul>
+        <p>然而，需更多大型試驗確認長期效果與最佳劑量。</p>
+      </div>
+    </section>
+
+    <!-- 免責聲明 -->
+    <section>
+      <div class="disclaimer">
+        <p class="font-bold">免責聲明</p>
+        <p>
+          本網頁資訊僅供教育目的參考，不應被視為專業醫療建議。任何疾病的診斷與治療，皆須由專業醫療人員根據個人情況進行評估。請勿自行根據本資訊做出任何醫療決策。
+        </p>
+      </div>
+    </section>
+
+  </main>
+</div>
+<!-- 回頂按鈕 -->
+<button id="backToTop" aria-label="返回頂部">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script>
+  // 回頂按鈕顯示控制
+  const backToTopBtn = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+    if(window.scrollY > 300) {
+      backToTopBtn.style.display = 'block';
+    } else {
+      backToTopBtn.style.display = 'none';
+    }
+  });
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
+</body>
+</html>
+
   /* 區塊間分隔 */
   hr {
     border: none;
